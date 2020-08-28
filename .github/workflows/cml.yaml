@@ -10,7 +10,6 @@ jobs:
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
-
           # Your ML workflow goes here
           pip install -r requirements.txt
           wget http://www.ehu.eus/ccwintco/uploads/6/67/Indian_pines_corrected.mat -O datasets/Indian_pines_corrected.mat
