@@ -17,7 +17,6 @@ jobs:
           wget http://www.ehu.eus/ccwintco/uploads/c/c4/Indian_pines_gt.mat -O datasets/Indian_pines_gt.mat
           cd SSRN
           python indian.py
-
           # Write your CML report
           cat records/pca_indian.txt_IN_25_0.8.txt >> report.md
           cml-send-comment report.md
